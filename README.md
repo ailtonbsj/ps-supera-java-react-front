@@ -6,3 +6,7 @@
 npm i
 npm start
 ```
+
+## Screenshot
+
+![](screenshot.png)
