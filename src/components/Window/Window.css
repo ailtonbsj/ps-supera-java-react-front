@@ -1,0 +1,97 @@
+.Window {
+    width: 956px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: calc(50vh - 315px);
+    left: calc(50vw - 478px);
+}
+
+.title-bar {
+    background-color: #ddd;
+    display: flex;
+    border-radius: 6px 6px 0 0;
+    padding-left: 5px;
+}
+
+.title-bar span {
+    background-color: #cacaca;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px 5px;
+}
+
+.content {
+    background-image: url(./bg.svg);
+    border: 1px solid #ddd;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs div {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs div label {
+    margin-bottom: 5px;
+}
+
+.inputs div input {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 0;
+}
+
+.botoes button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    font-size: large;
+}
+
+.saldo {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.content table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.content table thead tr th {
+    border: 1px solid black;
+    padding: 7px;
+    text-align: justify;
+}
+
+.content table tbody tr td {
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.content table tfoot tr td {
+    padding: 10px;
+    text-align: center;
+}
+
+.content table tfoot tr td span {
+    margin: 10px;
+    cursor: pointer;
+}
